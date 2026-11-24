@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 620" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#274d48"/><stop offset=".54" stop-color="#75897b"/><stop offset="1" stop-color="#cbbfa3"/></linearGradient><linearGradient id="hills" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1b5a44"/><stop offset="1" stop-color="#063525"/></linearGradient></defs>
+<rect width="1440" height="620" fill="url(#sky)"/><circle cx="1220" cy="125" r="110" fill="#fff6d2" opacity=".28"/>
+<path d="M0 348 145 263 270 324 435 174 595 341 750 216 916 348 1050 242 1164 338 1325 194 1440 291V620H0Z" fill="#d6dbd3" opacity=".62"/>
+<path d="m0 417 182-142 189 114 171-128 172 99 115-65 196 114 205-106 210 121V620H0Z" fill="#758d75"/>
+<path d="M0 489 120 416 269 472 449 384 606 467 781 368 948 450 1095 381 1307 489 1440 420V620H0Z" fill="#3a6e53"/>
+<path d="M0 530q216-102 406-13t359-18q182-119 360-17t315 0v138H0Z" fill="url(#hills)"/>
+<path d="M0 567Q155 513 276 567T550 551t262 23 273-1 355-42v89H0Z" fill="#0a372b"/>
+</svg>

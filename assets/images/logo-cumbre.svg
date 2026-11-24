@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="132" viewBox="0 0 550 132" role="img" aria-label="Café Cumbre Andina — Del grano al mundo">
+  <g transform="translate(4,9)">
+    <path d="M5 84 L47 45 L70 64 L100 21 L145 82 L117 62 L101 43 L70 82 L48 64 L19 96 Z" fill="#123c32"/>
+    <g transform="translate(64,65) rotate(23)">
+      <path d="M0 6 C18 -9 52 -6 61 15 C67 33 42 55 16 48 C-4 43 -10 22 0 6 Z" fill="#c77949"/>
+      <path d="M17 45 C29 23 36 18 53 11" stroke="#f9f2e7" fill="none" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+  <path d="M165 21 V110" stroke="#c77949" stroke-width="2"/>
+  <text x="185" y="50" fill="#123c32" font-size="36" font-weight="760" font-family="Segoe UI,Arial,sans-serif">Café</text>
+  <text x="185" y="83" fill="#123c32" font-size="32" font-weight="760" font-family="Segoe UI,Arial,sans-serif">Cumbre Andina</text>
+  <text x="187" y="113" fill="#b96630" font-size="23" font-style="italic" font-family="Georgia,serif">Del grano al mundo</text>
+</svg>

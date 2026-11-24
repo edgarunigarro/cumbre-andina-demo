@@ -1,0 +1,312 @@
+{
+  "metadatos": {
+    "id": "CA-MASTER-V1",
+    "version": "1.0",
+    "corte_escenario": "2026-11-21",
+    "naturaleza": "100% SIMULACIÓN EDUCATIVA",
+    "estado": "PROPUESTA PARA REVISIÓN",
+    "origen": "Caso transversal de la masterclass SENA/ACOPI AF1; no corresponde a una empresa real"
+  },
+  "identidad": {
+    "nombre_provisional": "Café Cumbre Andina",
+    "lema": "Del grano al mundo",
+    "sector": "Café de origen / transformación agroindustrial",
+    "ubicacion": "Zona cafetera de Nariño, Colombia (sin municipio ni dirección)",
+    "antiguedad_ficticia_anios": 8,
+    "equipo_ficticio_personas": 5,
+    "sitio_demo": "https://cumbrelandina.example",
+    "contacto": "[CORREO Y TELÉFONO FICTICIOS POR DEFINIR — NO UTILIZAR DATOS REALES]",
+    "marca_registrada": false
+  },
+  "situacion_actual": {
+    "estado": "A",
+    "actividad": "Producción y venta B2B de café verde seleccionado a compradores nacionales",
+    "volumen_anual_referencia_kg_cafe_verde": 2400,
+    "inventario_verde_disponible_lote_kg": 390,
+    "canales": [
+      "intermediarios",
+      "compradores nacionales B2B"
+    ],
+    "limitaciones": [
+      "información comercial dispersa",
+      "cotizaciones manuales",
+      "ausencia de marca empacada validada",
+      "baja capacidad de análisis de proveedores",
+      "sin web comercial operativa"
+    ],
+    "estado_exportacion": "No exporta café empacado; exploración futura, sin requisitos verificados"
+  },
+  "transformacion": {
+    "estado": "Planeación; no hay ventas piloto reales ni producción confirmada",
+    "reto": "Evaluar un lote piloto de café tostado envasado bajo marca propia y prepararse para rueda de negocios ficticia",
+    "unidades_piloto": 1000,
+    "gramos_por_paquete": 250,
+    "kg_cafe_tostado_neto": 250,
+    "merma_tostion_simulada_fraccion": 0.18,
+    "kg_cafe_verde_requeridos_redondeado": 305,
+    "kg_verde_remanente_teorico": 85,
+    "producto_piloto_id": "CA-ORIGEN-250-GRANO",
+    "mezcla": "No aplica: origen único ficticio; características de calidad a verificar",
+    "mercado_piloto": "Colombia — canal directo y compradores de prueba"
+  },
+  "portafolio": [
+    {
+      "id": "CA-ORIGEN-250-GRANO",
+      "nombre": "Cumbre Origen",
+      "descripcion": "Café tostado en grano, 250 g",
+      "fase": "Lote piloto propuesto",
+      "precio_venta_referencia_cop": 24900,
+      "claims_permitidos": [
+        "café de origen nariñense (de acuerdo con historia ficticia)"
+      ],
+      "claims_no_confirmados": [
+        "certificado orgánico",
+        "comercio justo",
+        "denominación de origen verificada",
+        "exportación aprobada",
+        "puntaje de catación oficial"
+      ]
+    },
+    {
+      "id": "CA-RESERVA-250",
+      "nombre": "Cumbre Reserva",
+      "descripcion": "Concepto de línea premium de 250 g; perfil y precio por validar",
+      "fase": "Conceptual, sin fabricación ni precio confirmado"
+    },
+    {
+      "id": "CA-EXPERIENCIA-ANDINA",
+      "nombre": "Experiencia Andina",
+      "descripcion": "Concepto de kit de regalo empresarial con cafés de la marca",
+      "fase": "Conceptual, sin fabricación ni precio confirmado"
+    }
+  ],
+  "personas_equipo_ficticias": [
+    {
+      "rol": "Dirección y relaciones comerciales",
+      "n": 1
+    },
+    {
+      "rol": "Producción, trazabilidad y calidad",
+      "n": 1
+    },
+    {
+      "rol": "Almacén y registros",
+      "n": 1
+    },
+    {
+      "rol": "Atención al cliente y ventas",
+      "n": 1
+    },
+    {
+      "rol": "Administración y logística",
+      "n": 1
+    }
+  ],
+  "escenario_financiero_cop": {
+    "supuestos": {
+      "unidades": 1000,
+      "precio_unitario_venta": 24900,
+      "verde_kg": 305,
+      "verde_valor_transferencia_kg": 23000,
+      "tostado_kg": 250,
+      "servicio_tostion_cop_kg_tostado": 6500,
+      "empaque_cop_unidad": 2100,
+      "etiqueta_cop_unidad": 650,
+      "distribucion_domestica_cop_unidad": 1400,
+      "control_calidad_lote_cop": 500000
+    },
+    "detalle_costos": [
+      {
+        "concepto": "Valor de transferencia del café verde",
+        "cantidad": 305,
+        "unidad": "kg verde",
+        "precio_unitario_cop": 23000,
+        "total_cop": 7015000
+      },
+      {
+        "concepto": "Tostión tercerizada",
+        "cantidad": 250,
+        "unidad": "kg tostado",
+        "precio_unitario_cop": 6500,
+        "total_cop": 1625000
+      },
+      {
+        "concepto": "Bolsa de empaque",
+        "cantidad": 1000,
+        "unidad": "unidad",
+        "precio_unitario_cop": 2100,
+        "total_cop": 2100000
+      },
+      {
+        "concepto": "Etiqueta",
+        "cantidad": 1000,
+        "unidad": "unidad",
+        "precio_unitario_cop": 650,
+        "total_cop": 650000
+      },
+      {
+        "concepto": "Distribución interna estimada",
+        "cantidad": 1000,
+        "unidad": "unidad",
+        "precio_unitario_cop": 1400,
+        "total_cop": 1400000
+      },
+      {
+        "concepto": "Control de calidad (supuesto agregado)",
+        "cantidad": 1,
+        "unidad": "lote",
+        "precio_unitario_cop": 500000,
+        "total_cop": 500000
+      }
+    ],
+    "costo_simulado_lote_cop": 13290000,
+    "costo_simulado_unitario_cop": 13290,
+    "ingreso_bruto_hipotetico_cop": 24900000,
+    "contribucion_preliminar_cop": 11610000,
+    "margen_contribucion_sobre_ingreso_fraccion": 0.46626506024,
+    "advertencias": [
+      "No es utilidad neta",
+      "No incluye impuestos, comisiones, marketing, costos fijos, depreciación, licencias, devoluciones, mermas adicionales, almacenamiento ni exportación",
+      "No hay validación comercial de precio ni ventas efectivas",
+      "No constituye estudio financiero, cotización real ni asesoría de inversión"
+    ]
+  },
+  "ofertas_proveedores_ficticios": {
+    "tostion": [
+      {
+        "id": "TOST-A",
+        "tarifa_cop_kg_tostado": 6500,
+        "minimo_kg_tostado": 100,
+        "plazo_dias": 7,
+        "elegible_piloto": true
+      },
+      {
+        "id": "TOST-B",
+        "tarifa_cop_kg_tostado": 6200,
+        "minimo_kg_tostado": 400,
+        "plazo_dias": 15,
+        "elegible_piloto": false
+      },
+      {
+        "id": "TOST-C",
+        "tarifa_cop_kg_tostado": 7000,
+        "minimo_kg_tostado": 200,
+        "plazo_dias": 5,
+        "elegible_piloto": true
+      }
+    ],
+    "empaques": [
+      {
+        "id": "PACK-A",
+        "precio_cop_unidad": 2100,
+        "minimo_unidades": 1000,
+        "plazo_dias": 10,
+        "elegible_piloto": true
+      },
+      {
+        "id": "PACK-B",
+        "precio_cop_unidad": 1850,
+        "minimo_unidades": 2500,
+        "plazo_dias": 15,
+        "elegible_piloto": false
+      },
+      {
+        "id": "PACK-C",
+        "precio_cop_unidad": 2450,
+        "minimo_unidades": 500,
+        "plazo_dias": 8,
+        "elegible_piloto": true
+      }
+    ],
+    "logistica": [
+      {
+        "id": "LOG-A",
+        "costo_cop_lote": 1400000,
+        "alcance": "Distribución doméstica simulada del lote",
+        "plazo": "pendiente de confirmar",
+        "elegible_piloto": true
+      },
+      {
+        "id": "LOG-B",
+        "costo_cop_lote": 1250000,
+        "alcance": "Cobertura parcial; confirmar destinos",
+        "plazo": "pendiente de confirmar",
+        "elegible_piloto": "por verificar"
+      }
+    ]
+  },
+  "clientes_casos_simulados": [
+    {
+      "id": "SOL-001",
+      "mensaje": "¿Pueden cotizar 200 paquetes de 250 g y confirmar despacho a otro país?",
+      "respuesta_correcta": "Preparar borrador y preguntar destino, requisitos, disponibilidad, plazo y autorización; NO confirmar exportación ni inventario empacado."
+    },
+    {
+      "id": "SOL-002",
+      "mensaje": "¿Qué precio tiene Cumbre Origen de 250 g en Colombia?",
+      "respuesta_correcta": "Indicar COP 24.900 como precio de simulación para 1 unidad, sujeto a validación, sin descuentos inventados."
+    }
+  ],
+  "identidad_visual_propuesta": {
+    "concepto": "Altura, origen, transformación y confianza",
+    "simbolo": "silueta abstracta de cumbre andina + grano de café sin emblemas oficiales",
+    "paleta": {
+      "verde_cumbre": "#183C35",
+      "marfil_cafe": "#F3EEE4",
+      "cobre_tostado": "#C77949",
+      "azul_pizarra": "#2E4859",
+      "dorado_sutil": "#D5B36A"
+    },
+    "tipografia_sugerida": "sans humanista legible; alternativas libres: Manrope y Source Sans 3",
+    "estilo": "editorial contemporáneo, sobrio, de origen y procesos reales; sin iconografía de certificaciones",
+    "sistema_visual": [
+      "logo principal horizontal",
+      "logo simplificado",
+      "etiqueta Origen 250 g",
+      "mockup de empaque realista",
+      "dirección fotográfica cálida",
+      "familia visual futura Reserva / Experiencia Andina"
+    ]
+  },
+  "politica_simulacion": [
+    "Todas las empresas, precios y cotizaciones del caso son ficticios y exclusivos para docencia",
+    "No usar nombres de personas reales, NIT, firmas, logos de proveedores ni contactos auténticos",
+    "No atribuir aval de SENA/ACOPI a Café Cumbre Andina",
+    "No afirmar registro de marca, certificaciones, puntaje de catación ni exportaciones realizadas",
+    "Separar empresa actual, lote piloto y expansión futura",
+    "Toda recomendación se somete a revisión humana"
+  ],
+  "alineacion": {
+    "unidad_1": "Asistentes para atención, cotizaciones, agenda, proveedores, administración",
+    "unidad_2": "Compras, inventarios, comercio rural, proveedores, catálogos, conocimiento empresarial",
+    "unidad_3": "Seguridad, ética, verificación, supervisión humana y medición",
+    "lab_1": [
+      "A14-A19",
+      "B07-B17"
+    ],
+    "lab_2": [
+      "A23-A26",
+      "B18-B24"
+    ],
+    "wow_voz": [
+      "A12-A13",
+      "B25-B27"
+    ],
+    "wow_imagen": [
+      "A27-A28",
+      "B28-B30"
+    ],
+    "wow_video": [
+      "A29-A30",
+      "B31-B33"
+    ],
+    "wow_web": [
+      "A31-A32",
+      "B34-B36"
+    ],
+    "wow_catalogo": [
+      "A33-A34",
+      "B37-B39"
+    ]
+  }
+}
